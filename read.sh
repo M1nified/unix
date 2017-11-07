@@ -3,6 +3,6 @@
 echo $BASHPID
 echo 'READ IS ON'
 while read line; do
-echo "BLAD: $line"
+echo "READ GOT: $line"
 done
 echo "READ IS OFF"
