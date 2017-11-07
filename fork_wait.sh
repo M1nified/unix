@@ -19,7 +19,7 @@ waitPids() {
                 unset pids[$i]
             fi
         done
-        pids=("${pids[@]}") # Expunge nulls created by unset.
+        pids=("${pids[@]}")
         sleep 1
     done
     echo "Done!"
